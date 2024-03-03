@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+openai = "*"
+pypdf2 = "*"
+flask = {extras = ["async"] }
+chromadb = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
